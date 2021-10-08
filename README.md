@@ -50,7 +50,7 @@ for i in range(height):
 
 ## Filterring Smoothing
 
-원본이미지를 Ycrcb 로 변환후 Y값만 3\*3 커널로 필터링 하여 스무딩을 하였습니다.
+After converting the original image to Ycrcb, only the Y value was filtered with 3\*3 kernels and smoothing was performed.
 
 ```python
 kernel = np.ones((3, 3), np.float32) / 9
